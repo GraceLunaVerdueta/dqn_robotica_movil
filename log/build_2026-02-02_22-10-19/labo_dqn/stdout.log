@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/labo_dqn/labo_dqn.egg-info
+writing ../../build/labo_dqn/labo_dqn.egg-info/PKG-INFO
+writing dependency_links to ../../build/labo_dqn/labo_dqn.egg-info/dependency_links.txt
+writing entry points to ../../build/labo_dqn/labo_dqn.egg-info/entry_points.txt
+writing requirements to ../../build/labo_dqn/labo_dqn.egg-info/requires.txt
+writing top-level names to ../../build/labo_dqn/labo_dqn.egg-info/top_level.txt
+writing manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'
+reading manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'
+writing manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn
+copying labo_dqn/reset_stage.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn
+copying labo_dqn/__init__.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn
+running install
+running install_lib
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn
+copying /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn/reset_stage.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn
+copying /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn/__init__.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn
+byte-compiling /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn/reset_stage.py to reset_stage.cpython-312.pyc
+byte-compiling /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index
+creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index/packages
+copying resource/labo_dqn -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index/packages
+copying package.xml -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/labo_dqn
+running install_egg_info
+Copying ../../build/labo_dqn/labo_dqn.egg-info to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn-0.0.0-py3.12.egg-info
+running install_scripts
+Installing reset_stage script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/labo_dqn
+writing list of installed files to '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/install.log'

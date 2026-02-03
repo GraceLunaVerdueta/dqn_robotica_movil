@@ -1,0 +1,23 @@
+[0.774s] Invoking command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/dqn_final': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_final build --build-base /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/build install --record /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/install.log --single-version-externally-managed install_data
+[0.967s] running egg_info
+[0.982s] writing ../../build/dqn_final/dqn_final.egg-info/PKG-INFO
+[0.982s] writing dependency_links to ../../build/dqn_final/dqn_final.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../../build/dqn_final/dqn_final.egg-info/entry_points.txt
+[0.982s] writing requirements to ../../build/dqn_final/dqn_final.egg-info/requires.txt
+[0.982s] writing top-level names to ../../build/dqn_final/dqn_final.egg-info/top_level.txt
+[1.012s] reading manifest file '../../build/dqn_final/dqn_final.egg-info/SOURCES.txt'
+[1.013s] writing manifest file '../../build/dqn_final/dqn_final.egg-info/SOURCES.txt'
+[1.013s] running build
+[1.013s] running build_py
+[1.013s] running install
+[1.018s] running install_lib
+[1.033s] running install_data
+[1.033s] running install_egg_info
+[1.049s] removing '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages/dqn_final-0.0.0-py3.12.egg-info' (and everything under it)
+[1.049s] Copying ../../build/dqn_final/dqn_final.egg-info to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages/dqn_final-0.0.0-py3.12.egg-info
+[1.049s] running install_scripts
+[1.148s] Installing reset_stage script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final
+[1.148s] Installing test_node script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final
+[1.148s] Installing train_node script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final
+[1.148s] writing list of installed files to '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/install.log'
+[1.165s] Invoked command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/dqn_final' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_final build --build-base /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/build install --record /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/install.log --single-version-externally-managed install_data

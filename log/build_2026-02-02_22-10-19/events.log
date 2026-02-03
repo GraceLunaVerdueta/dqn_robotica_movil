@@ -1,0 +1,668 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (dqn_final) JobQueued: {'identifier': 'dqn_final', 'dependencies': OrderedDict()}
+[0.000237] (labo_dqn) JobQueued: {'identifier': 'labo_dqn', 'dependencies': OrderedDict()}
+[0.000277] (stage) JobQueued: {'identifier': 'stage', 'dependencies': OrderedDict()}
+[0.000309] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict({'stage': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage'})}
+[0.000350] (stage) JobStarted: {'identifier': 'stage'}
+[0.004483] (dqn_final) JobStarted: {'identifier': 'dqn_final'}
+[0.008172] (labo_dqn) JobStarted: {'identifier': 'labo_dqn'}
+[0.018917] (stage) JobProgress: {'identifier': 'stage', 'progress': 'cmake'}
+[0.019196] (stage) Command: {'cmd': ['/usr/bin/cmake', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/Stage', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099667] (-) TimerEvent: {}
+[0.199989] (-) TimerEvent: {}
+[0.300204] (-) TimerEvent: {}
+[0.351362] (stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.351803] (stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.352024] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.352123] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.352302] (stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.352511] (stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.352610] (stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.352927] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.353058] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.357699] (stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.357904] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.358234] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.358653] (stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.358830] (stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.358898] (stage) StdoutLine: {'line': b'-- Installing Libraries to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib\n'}
+[0.358950] (stage) StdoutLine: {'line': b'-- Installing Plugins to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3\n'}
+[0.359158] (stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[0.359347] (stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.367120] (stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.391448] (stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[0.400272] (-) TimerEvent: {}
+[0.405580] (stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[0.424533] (stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[0.432383] (stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.500444] (-) TimerEvent: {}
+[0.545384] (stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.545574] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.600543] (-) TimerEvent: {}
+[0.604732] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.604878] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.664406] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.664550] (stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.700743] (-) TimerEvent: {}
+[0.719000] (stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.719149] (stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.775331] (stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.775539] (stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.798633] (dqn_final) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dqn_final', 'build', '--build-base', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/build', 'install', '--record', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/dqn_final', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.800810] (-) TimerEvent: {}
+[0.814850] (labo_dqn) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/labo_dqn', 'build', '--build-base', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build', 'install', '--record', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/labo_dqn', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.837992] (stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.838142] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.895570] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[0.900871] (-) TimerEvent: {}
+[0.923424] (stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;fltk  \n'}
+[0.925140] (stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[0.925453] (stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage\n'}
+[0.925984] (stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[0.932372] (stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[0.932649] (stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[1.000954] (-) TimerEvent: {}
+[1.002325] (stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[1.009962] (dqn_final) StdoutLine: {'line': b'running egg_info\n'}
+[1.011938] (stage) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.026339] (dqn_final) StdoutLine: {'line': b'writing ../../build/dqn_final/dqn_final.egg-info/PKG-INFO\n'}
+[1.026495] (dqn_final) StdoutLine: {'line': b'writing dependency_links to ../../build/dqn_final/dqn_final.egg-info/dependency_links.txt\n'}
+[1.026650] (dqn_final) StdoutLine: {'line': b'writing entry points to ../../build/dqn_final/dqn_final.egg-info/entry_points.txt\n'}
+[1.026758] (dqn_final) StdoutLine: {'line': b'writing requirements to ../../build/dqn_final/dqn_final.egg-info/requires.txt\n'}
+[1.026834] (dqn_final) StdoutLine: {'line': b'writing top-level names to ../../build/dqn_final/dqn_final.egg-info/top_level.txt\n'}
+[1.031092] (labo_dqn) StdoutLine: {'line': b'running egg_info\n'}
+[1.031280] (labo_dqn) StdoutLine: {'line': b'creating ../../build/labo_dqn/labo_dqn.egg-info\n'}
+[1.042294] (stage) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.043517] (stage) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.043634] (stage) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.043695] (stage) StderrLine: {'line': b'\n'}
+[1.043748] (stage) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.043800] (stage) StderrLine: {'line': b'\n'}
+[1.043848] (stage) StderrLine: {'line': b'\x1b[0m\n'}
+[1.047005] (labo_dqn) StdoutLine: {'line': b'writing ../../build/labo_dqn/labo_dqn.egg-info/PKG-INFO\n'}
+[1.047124] (labo_dqn) StdoutLine: {'line': b'writing dependency_links to ../../build/labo_dqn/labo_dqn.egg-info/dependency_links.txt\n'}
+[1.047220] (labo_dqn) StdoutLine: {'line': b'writing entry points to ../../build/labo_dqn/labo_dqn.egg-info/entry_points.txt\n'}
+[1.047294] (labo_dqn) StdoutLine: {'line': b'writing requirements to ../../build/labo_dqn/labo_dqn.egg-info/requires.txt\n'}
+[1.047369] (labo_dqn) StdoutLine: {'line': b'writing top-level names to ../../build/labo_dqn/labo_dqn.egg-info/top_level.txt\n'}
+[1.047437] (labo_dqn) StdoutLine: {'line': b"writing manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'\n"}
+[1.047683] (stage) StdoutLine: {'line': b'-- Build files have been written to: /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage\n'}
+[1.054271] (stage) CommandEnded: {'returncode': 0}
+[1.055233] (stage) JobProgress: {'identifier': 'stage', 'progress': 'build'}
+[1.055252] (stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', '--', '-j16', '-l16'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.060833] (dqn_final) StdoutLine: {'line': b"reading manifest file '../../build/dqn_final/dqn_final.egg-info/SOURCES.txt'\n"}
+[1.061651] (dqn_final) StdoutLine: {'line': b"writing manifest file '../../build/dqn_final/dqn_final.egg-info/SOURCES.txt'\n"}
+[1.061763] (dqn_final) StdoutLine: {'line': b'running build\n'}
+[1.061821] (dqn_final) StdoutLine: {'line': b'running build_py\n'}
+[1.062166] (dqn_final) StdoutLine: {'line': b'running install\n'}
+[1.067101] (dqn_final) StdoutLine: {'line': b'running install_lib\n'}
+[1.081452] (labo_dqn) StdoutLine: {'line': b"reading manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'\n"}
+[1.081976] (labo_dqn) StdoutLine: {'line': b"writing manifest file '../../build/labo_dqn/labo_dqn.egg-info/SOURCES.txt'\n"}
+[1.082071] (labo_dqn) StdoutLine: {'line': b'running build\n'}
+[1.082143] (labo_dqn) StdoutLine: {'line': b'running build_py\n'}
+[1.082205] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build\n'}
+[1.082292] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib\n'}
+[1.082369] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn\n'}
+[1.082439] (labo_dqn) StdoutLine: {'line': b'copying labo_dqn/reset_stage.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn\n'}
+[1.082492] (labo_dqn) StdoutLine: {'line': b'copying labo_dqn/__init__.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn\n'}
+[1.082561] (labo_dqn) StdoutLine: {'line': b'running install\n'}
+[1.085059] (dqn_final) StdoutLine: {'line': b'running install_data\n'}
+[1.085163] (dqn_final) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.087361] (labo_dqn) StdoutLine: {'line': b'running install_lib\n'}
+[1.093880] (stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[1.094155] (stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[1.094257] (stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[1.094345] (stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[1.094435] (stage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[1.094571] (stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[1.094889] (stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[1.095050] (stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[1.095221] (stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[1.095498] (stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[1.095625] (stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[1.096401] (stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[1.097842] (stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[1.099997] (stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[1.100201] (stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[1.100311] (stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[1.102090] (-) TimerEvent: {}
+[1.116693] (dqn_final) StdoutLine: {'line': b"removing '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages/dqn_final-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.116970] (dqn_final) StdoutLine: {'line': b'Copying ../../build/dqn_final/dqn_final.egg-info to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages/dqn_final-0.0.0-py3.12.egg-info\n'}
+[1.118417] (dqn_final) StdoutLine: {'line': b'running install_scripts\n'}
+[1.120940] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn\n'}
+[1.121500] (labo_dqn) StdoutLine: {'line': b'copying /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn/reset_stage.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn\n'}
+[1.122077] (labo_dqn) StdoutLine: {'line': b'copying /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/build/lib/labo_dqn/__init__.py -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn\n'}
+[1.122230] (labo_dqn) StdoutLine: {'line': b'byte-compiling /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn/reset_stage.py to reset_stage.cpython-312.pyc\n'}
+[1.122420] (labo_dqn) StdoutLine: {'line': b'byte-compiling /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn/__init__.py to __init__.cpython-312.pyc\n'}
+[1.122618] (labo_dqn) StdoutLine: {'line': b'running install_data\n'}
+[1.122904] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index\n'}
+[1.126737] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index\n'}
+[1.126846] (labo_dqn) StdoutLine: {'line': b'creating /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index/packages\n'}
+[1.126940] (labo_dqn) StdoutLine: {'line': b'copying resource/labo_dqn -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/ament_index/resource_index/packages\n'}
+[1.127100] (labo_dqn) StdoutLine: {'line': b'copying package.xml -> /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/share/labo_dqn\n'}
+[1.127205] (labo_dqn) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.158306] (labo_dqn) StdoutLine: {'line': b'Copying ../../build/labo_dqn/labo_dqn.egg-info to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages/labo_dqn-0.0.0-py3.12.egg-info\n'}
+[1.158533] (labo_dqn) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202194] (-) TimerEvent: {}
+[1.302536] (-) TimerEvent: {}
+[1.371720] (labo_dqn) StdoutLine: {'line': b'Installing reset_stage script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/labo_dqn\n'}
+[1.372896] (labo_dqn) StdoutLine: {'line': b"writing list of installed files to '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/labo_dqn/install.log'\n"}
+[1.388806] (dqn_final) StdoutLine: {'line': b'Installing reset_stage script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final\n'}
+[1.389151] (dqn_final) StdoutLine: {'line': b'Installing test_node script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final\n'}
+[1.389356] (dqn_final) StdoutLine: {'line': b'Installing train_node script to /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/dqn_final\n'}
+[1.389767] (dqn_final) StdoutLine: {'line': b"writing list of installed files to '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/dqn_final/install.log'\n"}
+[1.402732] (-) TimerEvent: {}
+[1.427740] (labo_dqn) CommandEnded: {'returncode': 0}
+[1.452144] (labo_dqn) JobEnded: {'identifier': 'labo_dqn', 'rc': 0}
+[1.454119] (dqn_final) CommandEnded: {'returncode': 0}
+[1.465203] (dqn_final) JobEnded: {'identifier': 'dqn_final', 'rc': 0}
+[1.503707] (-) TimerEvent: {}
+[1.604106] (-) TimerEvent: {}
+[1.704739] (-) TimerEvent: {}
+[1.805694] (-) TimerEvent: {}
+[1.906071] (-) TimerEvent: {}
+[2.006688] (-) TimerEvent: {}
+[2.107689] (-) TimerEvent: {}
+[2.208073] (-) TimerEvent: {}
+[2.265663] (stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[2.280154] (stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[2.290218] (stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[2.290477] (stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[2.300666] (stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[2.308692] (-) TimerEvent: {}
+[2.390017] (stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[2.397921] (stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[2.408803] (-) TimerEvent: {}
+[2.485546] (stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[2.490035] (stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[2.506304] (stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[2.506583] (stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[2.508899] (-) TimerEvent: {}
+[2.568631] (stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[2.609689] (-) TimerEvent: {}
+[2.710112] (-) TimerEvent: {}
+[2.796092] (stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[2.810718] (-) TimerEvent: {}
+[2.822094] (stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[2.877752] (stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[2.911695] (-) TimerEvent: {}
+[3.013239] (-) TimerEvent: {}
+[3.113633] (-) TimerEvent: {}
+[3.215001] (-) TimerEvent: {}
+[3.316690] (-) TimerEvent: {}
+[3.416710] (stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[3.417032] (-) TimerEvent: {}
+[3.479146] (stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[3.517166] (-) TimerEvent: {}
+[3.617691] (-) TimerEvent: {}
+[3.721438] (-) TimerEvent: {}
+[3.826325] (-) TimerEvent: {}
+[3.926692] (-) TimerEvent: {}
+[4.027069] (-) TimerEvent: {}
+[4.127396] (-) TimerEvent: {}
+[4.227774] (-) TimerEvent: {}
+[4.328127] (-) TimerEvent: {}
+[4.428445] (-) TimerEvent: {}
+[4.528791] (-) TimerEvent: {}
+[4.629120] (-) TimerEvent: {}
+[4.729444] (-) TimerEvent: {}
+[4.745782] (stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[4.829557] (-) TimerEvent: {}
+[4.833036] (stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[4.850658] (stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[4.850997] (stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[4.851192] (stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[4.851290] (stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[4.852311] (stage) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[4.854095] (stage) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[4.854242] (stage) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[4.854342] (stage) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[4.854432] (stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[4.854523] (stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[4.854623] (stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[4.854712] (stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[4.854809] (stage) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[4.929735] (-) TimerEvent: {}
+[5.030107] (-) TimerEvent: {}
+[5.130501] (-) TimerEvent: {}
+[5.230844] (-) TimerEvent: {}
+[5.331257] (-) TimerEvent: {}
+[5.431688] (-) TimerEvent: {}
+[5.532082] (-) TimerEvent: {}
+[5.632497] (-) TimerEvent: {}
+[5.634213] (stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[5.645458] (stage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[5.732632] (-) TimerEvent: {}
+[5.733150] (stage) StdoutLine: {'line': b'[ 83%] Built target stagebinary\n'}
+[5.748714] (stage) StdoutLine: {'line': b'[ 83%] Built target pioneer_flocking\n'}
+[5.817662] (stage) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[5.819672] (stage) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[5.819883] (stage) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[5.832755] (-) TimerEvent: {}
+[5.833763] (stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[5.845080] (stage) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[5.848812] (stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[5.875768] (stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[5.892922] (stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[5.930276] (stage) StdoutLine: {'line': b'[ 96%] Built target lasernoise\n'}
+[5.930697] (stage) StdoutLine: {'line': b'[ 96%] Built target rasterize\n'}
+[5.932911] (-) TimerEvent: {}
+[5.935419] (stage) StdoutLine: {'line': b'[ 96%] Built target sink\n'}
+[5.944033] (stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[5.962402] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[5.983909] (stage) StdoutLine: {'line': b'[ 98%] Built target fasr\n'}
+[5.985513] (stage) StdoutLine: {'line': b'[ 98%] Built target dynamic\n'}
+[5.985802] (stage) StdoutLine: {'line': b'[ 98%] Built target wander\n'}
+[5.990999] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[6.006521] (stage) StdoutLine: {'line': b'[ 98%] Built target source\n'}
+[6.013853] (stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[6.032979] (-) TimerEvent: {}
+[6.079304] (stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[6.088042] (stage) CommandEnded: {'returncode': 0}
+[6.088711] (stage) JobProgress: {'identifier': 'stage', 'progress': 'install'}
+[6.094591] (stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.099734] (stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[6.099827] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig/stage.pc\n'}
+[6.099894] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/cmake/Stage/stage-config.cmake\n'}
+[6.099957] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[6.100112] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin/stage\n'}
+[6.100286] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin/stage" to ""\n'}
+[6.100356] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/libstage.so.4.3.0\n'}
+[6.100739] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/libstage.so\n'}
+[6.100804] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/include/Stage-4.3/stage.hh\n'}
+[6.101200] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/fasr.so\n'}
+[6.101344] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[6.101415] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/sink.so\n'}
+[6.101521] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/sink.so" to ""\n'}
+[6.101585] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/source.so\n'}
+[6.101734] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/source.so" to ""\n'}
+[6.101803] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/wander.so\n'}
+[6.101928] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/wander.so" to ""\n'}
+[6.101993] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[6.102121] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[6.102186] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/rasterize.so\n'}
+[6.102299] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[6.102368] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/lasernoise.so\n'}
+[6.102476] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[6.102544] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/dynamic.so\n'}
+[6.102676] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[6.102749] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/fasr2.so\n'}
+[6.102903] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[6.103068] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/blue.png\n'}
+[6.103271] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/death.png\n'}
+[6.104439] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/green.png\n'}
+[6.104562] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/logo.png\n'}
+[6.104706] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/mains.png\n'}
+[6.106345] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/mainspower.png\n'}
+[6.107067] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/question_mark.png\n'}
+[6.107328] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/red.png\n'}
+[6.107473] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/stagelogo.png\n'}
+[6.107604] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/stall-old.png\n'}
+[6.107943] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/stall.png\n'}
+[6.108182] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/assets/rgb.txt\n'}
+[6.108418] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/rgb.txt\n'}
+[6.108789] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[6.108953] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/autolab.cfg\n'}
+[6.109654] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/camera.cfg\n'}
+[6.109720] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/everything.cfg\n'}
+[6.109785] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/lsp_test.cfg\n'}
+[6.109851] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/mbicp.cfg\n'}
+[6.109920] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/nd.cfg\n'}
+[6.109983] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/roomba.cfg\n'}
+[6.110046] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/simple.cfg\n'}
+[6.110115] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/test.cfg\n'}
+[6.110185] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[6.110251] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/vfh.cfg\n'}
+[6.110327] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[6.110398] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wavefront.cfg\n'}
+[6.110464] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi.cfg\n'}
+[6.110524] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/SFU.world\n'}
+[6.110636] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/autolab.world\n'}
+[6.110745] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/camera.world\n'}
+[6.110893] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/circuit.world\n'}
+[6.111056] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/everything.world\n'}
+[6.111182] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/fasr.world\n'}
+[6.111349] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/fasr2.world\n'}
+[6.111473] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/fasr_plan.world\n'}
+[6.111544] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/large.world\n'}
+[6.111614] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/lsp_test.world\n'}
+[6.111683] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/mbicp.world\n'}
+[6.111756] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/pioneer_flocking.world\n'}
+[6.111828] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/pioneer_follow.world\n'}
+[6.111895] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/pioneer_walle.world\n'}
+[6.111963] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/roomba.world\n'}
+[6.112029] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[6.112098] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[6.112163] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/simple.world\n'}
+[6.112230] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[6.112297] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi.world\n'}
+[6.112365] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/beacons.inc\n'}
+[6.112482] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/chatterbox.inc\n'}
+[6.112618] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/hokuyo.inc\n'}
+[6.112754] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/irobot.inc\n'}
+[6.112885] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/map.inc\n'}
+[6.113068] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/objects.inc\n'}
+[6.113194] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/pantilt.inc\n'}
+[6.113280] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/pioneer.inc\n'}
+[6.113361] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/sick.inc\n'}
+[6.113429] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/ubot.inc\n'}
+[6.113498] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[6.113585] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/walle.inc\n'}
+[6.113663] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/cfggen.sh\n'}
+[6.113785] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/test.sh\n'}
+[6.113849] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/worldgen.sh\n'}
+[6.114039] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/expand_swarm.so\n'}
+[6.114197] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[6.114260] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[6.114380] (stage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[6.114524] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[6.114729] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[6.115280] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[6.115443] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[6.115587] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/cave.png\n'}
+[6.115794] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[6.115855] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[6.115916] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[6.116033] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[6.116100] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[6.116211] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[6.116279] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[6.116342] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[6.116417] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/rink.png\n'}
+[6.116484] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[6.116547] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[6.116615] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[6.116701] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[6.116774] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[6.116840] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/table.png\n'}
+[6.116903] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[6.117079] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/commando.world\n'}
+[6.117154] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[6.117222] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[6.117286] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/wifi.world\n'}
+[6.117352] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[6.117415] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[6.117478] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[6.117541] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[6.117608] (stage) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share/stage/worlds/wifi/map.inc\n'}
+[6.118677] (stage) CommandEnded: {'returncode': 0}
+[6.129263] (stage) JobEnded: {'identifier': 'stage', 'rc': 0}
+[6.129951] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[6.133039] (-) TimerEvent: {}
+[6.136527] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[6.136819] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.174862] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.211696] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.221566] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.233184] (-) TimerEvent: {}
+[6.280910] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.287320] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.287543] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.287783] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.293901] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.333303] (-) TimerEvent: {}
+[6.359639] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.366148] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.366322] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.366663] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.369228] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.433412] (-) TimerEvent: {}
+[6.471324] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.533494] (-) TimerEvent: {}
+[6.581889] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[6.618233] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.629238] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.633564] (-) TimerEvent: {}
+[6.643408] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.658854] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.733773] (-) TimerEvent: {}
+[6.739838] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.743796] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.805621] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[6.820455] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.833850] (-) TimerEvent: {}
+[6.836356] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.896250] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[6.926302] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[6.933976] (-) TimerEvent: {}
+[6.974089] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[6.996256] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[7.034125] (-) TimerEvent: {}
+[7.071189] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[7.085374] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[7.086438] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.086499] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.089185] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[7.106538] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.134259] (-) TimerEvent: {}
+[7.186129] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.186382] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/grace/Documents/Diplomado_Robotica/16_01_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/grace/Documents/Diplomado_Robotica/16_01_ws/src/stage_ros2/include>\n'}
+[7.186463] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.187470] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.187576] (stage_ros2) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.188593] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.189496] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.192384] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.192532] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.193150] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.196622] (stage_ros2) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[7.197608] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8\n"}
+[7.198758] (stage_ros2) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[7.214280] (stage_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.218788] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2\n'}
+[7.227366] (stage_ros2) CommandEnded: {'returncode': 0}
+[7.227846] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[7.228155] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', '--', '-j16', '-l16'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[7.234340] (-) TimerEvent: {}
+[7.263696] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[7.263883] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[7.263947] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[7.264001] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[7.334533] (-) TimerEvent: {}
+[7.434812] (-) TimerEvent: {}
+[7.535113] (-) TimerEvent: {}
+[7.635452] (-) TimerEvent: {}
+[7.735837] (-) TimerEvent: {}
+[7.836170] (-) TimerEvent: {}
+[7.936486] (-) TimerEvent: {}
+[8.036866] (-) TimerEvent: {}
+[8.137226] (-) TimerEvent: {}
+[8.237555] (-) TimerEvent: {}
+[8.337928] (-) TimerEvent: {}
+[8.438238] (-) TimerEvent: {}
+[8.538524] (-) TimerEvent: {}
+[8.638904] (-) TimerEvent: {}
+[8.739276] (-) TimerEvent: {}
+[8.839648] (-) TimerEvent: {}
+[8.940007] (-) TimerEvent: {}
+[9.040368] (-) TimerEvent: {}
+[9.140688] (-) TimerEvent: {}
+[9.241049] (-) TimerEvent: {}
+[9.341385] (-) TimerEvent: {}
+[9.441757] (-) TimerEvent: {}
+[9.542106] (-) TimerEvent: {}
+[9.642409] (-) TimerEvent: {}
+[9.742775] (-) TimerEvent: {}
+[9.843069] (-) TimerEvent: {}
+[9.943413] (-) TimerEvent: {}
+[10.043832] (-) TimerEvent: {}
+[10.144188] (-) TimerEvent: {}
+[10.244546] (-) TimerEvent: {}
+[10.344923] (-) TimerEvent: {}
+[10.445273] (-) TimerEvent: {}
+[10.545658] (-) TimerEvent: {}
+[10.646001] (-) TimerEvent: {}
+[10.746361] (-) TimerEvent: {}
+[10.846726] (-) TimerEvent: {}
+[10.947083] (-) TimerEvent: {}
+[11.047423] (-) TimerEvent: {}
+[11.147781] (-) TimerEvent: {}
+[11.248107] (-) TimerEvent: {}
+[11.348415] (-) TimerEvent: {}
+[11.448788] (-) TimerEvent: {}
+[11.549102] (-) TimerEvent: {}
+[11.649406] (-) TimerEvent: {}
+[11.749765] (-) TimerEvent: {}
+[11.850087] (-) TimerEvent: {}
+[11.950359] (-) TimerEvent: {}
+[12.050711] (-) TimerEvent: {}
+[12.151029] (-) TimerEvent: {}
+[12.251347] (-) TimerEvent: {}
+[12.351684] (-) TimerEvent: {}
+[12.452025] (-) TimerEvent: {}
+[12.552370] (-) TimerEvent: {}
+[12.652700] (-) TimerEvent: {}
+[12.752957] (-) TimerEvent: {}
+[12.853287] (-) TimerEvent: {}
+[12.953669] (-) TimerEvent: {}
+[13.054028] (-) TimerEvent: {}
+[13.154328] (-) TimerEvent: {}
+[13.254618] (-) TimerEvent: {}
+[13.354906] (-) TimerEvent: {}
+[13.455199] (-) TimerEvent: {}
+[13.555494] (-) TimerEvent: {}
+[13.655790] (-) TimerEvent: {}
+[13.756086] (-) TimerEvent: {}
+[13.856390] (-) TimerEvent: {}
+[13.956688] (-) TimerEvent: {}
+[14.056967] (-) TimerEvent: {}
+[14.157197] (-) TimerEvent: {}
+[14.257476] (-) TimerEvent: {}
+[14.357782] (-) TimerEvent: {}
+[14.458072] (-) TimerEvent: {}
+[14.558367] (-) TimerEvent: {}
+[14.658671] (-) TimerEvent: {}
+[14.758957] (-) TimerEvent: {}
+[14.859247] (-) TimerEvent: {}
+[14.959545] (-) TimerEvent: {}
+[15.059831] (-) TimerEvent: {}
+[15.160115] (-) TimerEvent: {}
+[15.260396] (-) TimerEvent: {}
+[15.360689] (-) TimerEvent: {}
+[15.460976] (-) TimerEvent: {}
+[15.561261] (-) TimerEvent: {}
+[15.661545] (-) TimerEvent: {}
+[15.761845] (-) TimerEvent: {}
+[15.862135] (-) TimerEvent: {}
+[15.962424] (-) TimerEvent: {}
+[16.062667] (-) TimerEvent: {}
+[16.162944] (-) TimerEvent: {}
+[16.263221] (-) TimerEvent: {}
+[16.363510] (-) TimerEvent: {}
+[16.463814] (-) TimerEvent: {}
+[16.564106] (-) TimerEvent: {}
+[16.608358] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[16.664293] (-) TimerEvent: {}
+[16.764626] (-) TimerEvent: {}
+[16.864931] (-) TimerEvent: {}
+[16.965249] (-) TimerEvent: {}
+[17.065581] (-) TimerEvent: {}
+[17.094409] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[17.107207] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[17.165683] (-) TimerEvent: {}
+[17.265946] (-) TimerEvent: {}
+[17.366234] (-) TimerEvent: {}
+[17.466541] (-) TimerEvent: {}
+[17.566897] (-) TimerEvent: {}
+[17.667200] (-) TimerEvent: {}
+[17.767510] (-) TimerEvent: {}
+[17.867818] (-) TimerEvent: {}
+[17.968107] (-) TimerEvent: {}
+[18.068409] (-) TimerEvent: {}
+[18.168718] (-) TimerEvent: {}
+[18.269016] (-) TimerEvent: {}
+[18.369325] (-) TimerEvent: {}
+[18.469638] (-) TimerEvent: {}
+[18.569949] (-) TimerEvent: {}
+[18.670252] (-) TimerEvent: {}
+[18.770556] (-) TimerEvent: {}
+[18.870860] (-) TimerEvent: {}
+[18.971153] (-) TimerEvent: {}
+[19.071449] (-) TimerEvent: {}
+[19.171778] (-) TimerEvent: {}
+[19.272078] (-) TimerEvent: {}
+[19.372373] (-) TimerEvent: {}
+[19.472664] (-) TimerEvent: {}
+[19.572950] (-) TimerEvent: {}
+[19.673255] (-) TimerEvent: {}
+[19.773561] (-) TimerEvent: {}
+[19.873866] (-) TimerEvent: {}
+[19.974168] (-) TimerEvent: {}
+[20.074458] (-) TimerEvent: {}
+[20.174752] (-) TimerEvent: {}
+[20.275016] (-) TimerEvent: {}
+[20.375279] (-) TimerEvent: {}
+[20.475547] (-) TimerEvent: {}
+[20.555374] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[20.575648] (-) TimerEvent: {}
+[20.675914] (-) TimerEvent: {}
+[20.776223] (-) TimerEvent: {}
+[20.853727] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[20.861132] (stage_ros2) CommandEnded: {'returncode': 0}
+[20.861582] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[20.861964] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2'], 'cwd': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'grace', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/grace', 'OLDPWD': '/home/grace', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2316', 'SYSTEMD_EXEC_PID': '2927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5842', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'grace', 'JOURNAL_STREAM': '9:27659', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'grace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grace-ASUS:@/tmp/.ICE-unix/2669,unix/grace-ASUS:/tmp/.ICE-unix/2669', 'INVOCATION_ID': 'aaf9539f732141d2a0701c4e4686ee5b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dbd158a0-b5f6-4acf-8965-2d3b1ed9b4f3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage_ros2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final/lib/python3.12/site-packages:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/dqn_final:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/labo_dqn:/opt/ros/jazzy:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage:/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[20.867372] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.867456] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[20.867518] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[20.867576] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch\n'}
+[20.867640] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[20.867705] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[20.867770] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[20.867829] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[20.867893] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[20.867952] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world\n'}
+[20.868001] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/include\n'}
+[20.868058] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[20.868107] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[20.868721] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[20.868778] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[20.868831] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[20.868886] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[20.868942] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[20.869003] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[20.869058] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[20.869116] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[20.869171] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps\n'}
+[20.869215] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[20.869332] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[20.869388] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[20.869442] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[20.869513] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[20.870298] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[20.870458] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/solid_cave.png\n'}
+[20.870515] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[20.870572] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[20.870773] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[20.870831] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config\n'}
+[20.870893] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[20.870942] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[20.871025] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[20.871317] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[20.871576] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[20.871758] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[20.871916] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[20.872073] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[20.872170] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy\n'}
+[20.872233] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[20.872393] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[20.876290] (-) TimerEvent: {}
+[20.880119] (stage_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib/libstage_node.so" to ""\n'}
+[20.880193] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[20.880751] (stage_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""\n'}
+[20.880824] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[20.880977] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[20.881097] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[20.881171] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[20.881229] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[20.881290] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[20.881347] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[20.881454] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[20.881518] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[20.881719] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[20.881782] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[20.881861] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[20.881938] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[20.881996] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[20.882054] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/grace/Documents/Diplomado_Robotica/16_01_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[20.883136] (stage_ros2) CommandEnded: {'returncode': 0}
+[20.891703] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[20.892453] (-) EventReactorShutdown: {}

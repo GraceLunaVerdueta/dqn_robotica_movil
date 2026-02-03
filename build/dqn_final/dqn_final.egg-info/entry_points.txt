@@ -1,0 +1,4 @@
+[console_scripts]
+reset_stage = dqn_final.reset_stage:main
+test_node = dqn_final.test_node:main
+train_node = dqn_final.train_node:main

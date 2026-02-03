@@ -1,0 +1,2 @@
+[console_scripts]
+reset_stage = labo_dqn.reset_stage:main

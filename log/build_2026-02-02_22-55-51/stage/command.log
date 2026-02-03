@@ -1,0 +1,4 @@
+Invoking command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage -- -j16 -l16
+Invoked command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage -- -j16 -l16
+Invoking command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage
+Invoked command in '/home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/grace/Documents/Diplomado_Robotica/16_01_ws/build/stage
